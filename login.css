@@ -3,5 +3,58 @@
 }
 
 body{
-    background-image: url('../LOGIN/image/background.jpg');
+    background-image: url('/image/background.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container{
+    padding: 20px;
+    width: 350px;
+    height: 450px;
+    background-color: rgba(63, 73, 88, 0.7);
+    background-blend-mode: multiply;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.login{
+    font-size: .8em;
+    margin: 40px 0;
+    text-align: start;
+}
+
+.inputs{
+    width: 100%;
+    height: 25px;
+    border-radius: 3px;
+    border: 2px solid rgb(22, 36, 100);
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.inputs:focus{
+    border: 3px solid dodgerblue;
+}
+
+.signin-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    width: 100%;
+    border: 1px solid dodgerblue;
+    border-radius: 3px;
+    font-size: .8em;
+    background-color: rgba(63, 73, 88, 0.5);
+}
+
+.signin-btn:hover{
+    background-color: rgba(63, 73, 88, 0.9);
 }
